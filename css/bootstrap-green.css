@@ -4135,6 +4135,7 @@ a.badge:hover {
   padding: 60px;
   margin-bottom: 30px;
   background-color: #9dc950;
+
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -4145,6 +4146,11 @@ a.badge:hover {
   line-height: 1;
   color: inherit;
   letter-spacing: -1px;
+  color: #fff;
+
+  -moz-text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  -webkit-text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  text-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 .hero-unit p {
   font-size: 18px;
