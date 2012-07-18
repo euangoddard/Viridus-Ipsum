@@ -26,15 +26,26 @@
                 <div class="span12" id="input-controls">
                     <form action="index.html" method="get" class="well form-inline">
                         <h4><i class="icon-leaf"></i> Parameters:</h4>
-                        <label>
-                            Dark green
-                            <input id="greenicity" type="range" min="1" max="9" step="1" name="greenicity" />
-                            Light green
-                        </label>
-                        <label>
-                            <input type="number" value="500" id="words" name="words" />
-                        </label>
-                        <button type="submit" class="btn btn-primary"><i class="icon-leaf icon-white"></i> Make ipsum!</button>
+                        <div class="control-group" style="text-align: center;">
+                            <label>
+                                Dark green
+                                <input id="greenicity" type="range" min="1" max="9" step="1" name="greenicity" />
+                                Light green
+                            </label>
+                        </div>
+                        <div class="control-group" style="text-align: center;">
+                            <label>
+                                Words to generate
+                            </label>
+                            <div class="controls">
+                                <input type="number" value="500" id="words" name="words" />
+                            </div>
+                        </div>
+                        <div class="control-group" style="text-align: center;">
+                            <div class="controls">
+                                <button type="submit" class="btn-large btn-primary"><i class="icon-leaf icon-white"></i> Make ipsum!</button>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -48,6 +59,7 @@
         </div>
     </body>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="https://raw.github.com/fryn/html5slider/master/html5slider.js"></script>
         <script src="https://github.com/euangoddard/Viridus-Ipsum/raw/master/jquery.ba-bbq.min.js"></script>
         <script src="https://github.com/euangoddard/Viridus-Ipsum/raw/master/viridus-ipsum.js"></script>
     </body>
